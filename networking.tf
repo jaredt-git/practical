@@ -1,4 +1,4 @@
-resource "aws_vpc" "test_vpc" {
+/*resource "aws_vpc" "test_vpc" {
   cidr_block = "10.0.0.0/16"
 }
 
@@ -22,4 +22,4 @@ resource "aws_route_table" "public_rtb" {
 resource "aws_route_table_association" "rtb_ass" {
   subnet_id      = aws_subnet.public.id
   route_table_id = aws_route_table.public_rtb.id
-}
+}*/
